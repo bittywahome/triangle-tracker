@@ -1,23 +1,24 @@
 <html>
   <head>
     <title>triangle</title>
-<script src="js/scripts.js"></script>
 <link rel="stylesheets" type="text/css" href="css/styles.css">
+<script src="js/scripts.js"></script>
   </head>
   <body>
   <h1>triangle tracker</h1>
       <form>
-            trianglelength <A:blank></A:blank>
-            <input type="number" name="triangle length" value="">
-            <br><br>
-            trianglewidth <B:blank></A:blank>
-            <input type="number" name="trianglewidth" value="">
-            <br><br>
-            trianglebase <C:blank></A:blank>
-            <input type="number" name="trianglebase" value="">
-            <br><br>
-            <button type="button" name="button" onclick="tracker()" class="send">TRACK</button>
-            <button type="clear" name="button" class="change">CLEAR</button><br><br>
+            length <A:blank></A:blank>
+            <input type="number" id="l" value="">
+            <br></br>
+            width <B:blank></A:blank>
+            <input type="number" id="w" value="">
+            <br></br>
+            base <C:blank></A:blank>
+            <input type="number" id="b" value="">
+            <br></br>
+            <h1 id="answer"></h1>
+            <input type="button" name="submit" onclick="calculate()" value="submit"><br></br>
+            <input type="reset" name="button" class="change"></button><br></br>
         </form>
 </body>
 </html>
