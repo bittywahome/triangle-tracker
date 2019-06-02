@@ -27,11 +27,21 @@ body{
   border: 2px solid #fff;
 }
 
-.container.left
+.container .right
 {
-  float: left;
+  float: right;
   width: 50%;
   height: 400px;
-  background: url("../img/triangle.png");
   background-size:cover;
+  box-sizing: border-box;
+}
+
+.container .left
+{
+  background:url("../img/triangle.png");
+  float:left;
+  width:50%;
+  height: 400px;
+  background-size: cover;
+  box-sizing: border-box;
 }
