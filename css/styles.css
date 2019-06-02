@@ -1,8 +1,13 @@
 body{
   margin: 0;
   padding: 0;
-  background:url("triangle.png");
+  background:url("../img/triangle2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+
 }
  h1{
-   text-align: right;
+   text-align: center;
 }
