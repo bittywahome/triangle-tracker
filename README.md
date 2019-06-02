@@ -39,6 +39,6 @@ two similar inputs              length=20                      Isosceles
                                 width=20
                                 base=10
 
-three non-similar inputs         length=7
+three non-similar inputs         length=7                       Scalene
                                   width=11
                                   base=17
