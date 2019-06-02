@@ -1,5 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  background:url(https://cdn.pixabay.com/photo/2016/08/21/05/15/space-1609029_960_720.jpg);
+  background:url("triangle.png");
+}
+ h1{
+   text-align: right;
 }
