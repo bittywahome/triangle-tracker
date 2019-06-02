@@ -26,3 +26,12 @@ body{
   margin: 0 auto;
   border: 2px solid #fff;
 }
+
+.container.left
+{
+  float: left;
+  width: 50%;
+  height: 400px;
+  background: url("../img/triangle.png");
+  background-size:cover;
+}
