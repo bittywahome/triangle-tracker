@@ -27,24 +27,23 @@ equilateral, scalene or not a triangle at all depending on values you input }
 copyright (c) {2019} **{betty wahome}**
 
 
-
 #BEHAVIOR DRIVEN DEVELOPMENT
-________________________________________________________________________________
-|BEHAVIOR                      |  input                        | OUTPUT
--------------------------------|------------------------------------------------
-sum of any two sides of the    | length=9                     | not a triangle
-triangle is equal to or less   | width=4                      |
-than the third remaining side, | base=3                       |
-________________________________________________________________________________
-                                |                              |
-similar inputs                  | length=5                     | Equilateral
-                                |width=5                       |
-                                | base=5                       |
-________________________________________________________________________________
-two similar inputs              |length=20                      |Isosceles
-                                |width=20                       |
-                                |base=10                        |
-________________________________________________________________________________
-three non-similar inputs         length=7                       Scalene
-                                  width=11
-________________________________________________________________________________
+--------------------------------------------------------------------------------
+||BEHAVIOR                      |  input                       | OUTPUT
+------------------------------- |------------------------------------------------
+|sum of any two sides of the    | length=9                     | not a triangle
+|triangle is equal to or less   | width=4                      |
+|than the third remaining side, | base=3                       |
+|________________________________________________________________________________
+|                                |                             |
+|similar inputs                  | length=5                    | Equilateral
+|                                |width=5                      |
+|                                | base=5                      |
+|________________________________________________________________________________
+|two similar inputs              |length=20                    |Isosceles
+|                                |width=20                     |
+|                                |base=10                      |
+|______________________________________________________________|_________________
+|three non-similar inputs        | length=7                    | Scalene
+|                                |  width=11                   |
+|________________________________________________________________________________
