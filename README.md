@@ -11,7 +11,7 @@ equilateral, scalene or not a triangle at all depending on values you input }
 * change directory to portfolio in your local machine
 * Cd to index.html
 * click and open the file
-* click styles.css to view styling
+* click styles.css to view styling and scripts.js to view the code.
 
 
 
