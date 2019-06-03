@@ -29,8 +29,8 @@ copyright (c) {2019} **{betty wahome}**
 
 #BEHAVIOR DRIVEN DEVELOPMENT
 --------------------------------------------------------------------------------
-||BEHAVIOR                      |  input                       | OUTPUT
-------------------------------- |------------------------------------------------
+|BEHAVIOR                      |  input                       | OUTPUT
+| :---- |                       |:---- |                      |          :---- |
 |sum of any two sides of the    | length=9                     | not a triangle
 |triangle is equal to or less   | width=4                      |
 |than the third remaining side, | base=3                       |
