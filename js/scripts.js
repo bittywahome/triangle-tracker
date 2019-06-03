@@ -13,3 +13,7 @@ document.getElementById('answer') .innerHTML="isoceles"
   document.getElementById('answer').innerHTML="scalene"
 }
 };
+
+function change(){
+  location.reload();
+}

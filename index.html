@@ -6,24 +6,26 @@
   </head>
   <body>
   <div class="title"><h1>triangle tracker</h1></div>
-  <div class="container">
-    <div class="left"></div>
-      <div class="right">
-      <form>
-            length <A:blank></A:blank>
-            <input type="number" id="l" value="" required="">
-            <br></br>
-            width <B:blank></A:blank>
-            <input type="number" id="w" value="" required="">
-            <br></br>
-            base <C:blank></A:blank>
-            <input type="number" id="b" value="" required="">
-            <br></br>
-            <h1 id="answer"></h1>
-            <input type="button" name="submit" onclick="calculate()" value="submit"><br></br>
-            <input type="reset" name="button" class="change"></button><br></br>
+    <div class="container">
+      <div class="left"></div>
+          <div class="right">
+            <div class="form box">
+                <form method="get"id="resetElements">
+                  <p>length <l:blank></A:blank></p>
+                    <input type="number" id="l" value="" required="">
+                            <br></br>
+              <p>width <w:blank></A:blank></p>
+                  <input type="number" id="w" value="" required="">
+                      <br></br>
+                <p>base <b:blank></A:blank></p>
+                    <input type="number" id="b" value="" required="">
+                        <br></br>
+          <h1 id="answer"></h1>
+            <input type="button" name="submit" onclick="calculate()"; value="submit"><br><br>
+        <input type="reset" name="button" class="reset" onclick="change()"><br><br>
           </form>
-        </div>
       </div>
+    </div>
+  </div>
 </body>
 </html>
